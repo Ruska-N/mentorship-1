@@ -179,12 +179,32 @@
   margin-bottom: 59px;
 }
 
-
-
+/* testimonials style */
+.testimonials {
+  padding: 160px 0;
+}
+.test-title {
+  font-family: "Fraunces";
+  font-variation-settings: 9pt Soft;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #a7aaad;
+  margin-bottom: 80px;
+}
+.users {
+  display: flex;
+  gap: 30px;
+}
+.user {
+  text-align: center;
+}
 
 .img-section {
-    display: flex;
-    gap: 0;
-    max-width: 1440px;
-    margin: 0 auto;
+  display: flex;
+  gap: 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
