@@ -1,0 +1,67 @@
+/* header styles */
+
+.header {
+  background-image: url(../images/mae-mu-1APtYqzNajA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1352px;
+  padding-top: 34px;
+  margin: 0 auto;
+}
+.menu-bar {
+  display: flex;
+  gap: 47px;
+  align-items: center;
+}
+.header-nav ul {
+  display: flex;
+  gap: 47px;
+  align-items: center;
+}
+.header-nav a {
+  color: white;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.13px;
+}
+.contact-btn a {
+  color: black;
+  font-family: Fraunces 9pt Soft;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.11px;
+
+  padding: 16px 30px;
+  background-color: white;
+  border-radius: 28px;
+}
+.header-title {
+  margin: 105px auto 0;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 96.54px;
+  align-items: center;
+}
+.main-title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 56px;
+  font-variation-settings: soft 9pt;
+  color: white;
+  letter-spacing: 8.75px;
+  line-height: 100%;
+}
+.arrow {
+  font-size: 107.5px;
+  color: white;
+}
